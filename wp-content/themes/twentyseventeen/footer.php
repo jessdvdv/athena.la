@@ -2,46 +2,31 @@
 /**
  * The template for displaying the footer
  *
- * Contains the closing of the #content div and all content after.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ * Contains footer content and the closing of the #main and #page div elements.
  *
  * @package WordPress
- * @subpackage Twenty_Seventeen
- * @since 1.0
- * @version 1.2
+ * @subpackage Accelerate Marketing
+ * @since Accelerate Marketing 2.0
  */
-
 ?>
 
-		</div><!-- #content -->
+		</div><!-- #main -->
 
-		<footer id="colophon" class="site-footer" role="contentinfo">
-			<div class="wrap">
-				<?php
-				get_template_part( 'template-parts/footer/footer', 'widgets' );
+		<footer id="colophon" class="site-footer clearfix" role="contentinfo">
+			<div class="site-info">
+				<div class="site-description">
+					<p><?php bloginfo('description'); ?></p>
+					<p>&copy; <?php bloginfo('title'); ?>, LLC 2017
+				</div>
 
-				if ( has_nav_menu( 'social' ) ) : ?>
-					<nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Social Links Menu', 'twentyseventeen' ); ?>">
-						<?php
-							wp_nav_menu( array(
-								'theme_location' => 'social',
-								'menu_class'     => 'social-links-menu',
-								'depth'          => 1,
-								'link_before'    => '<span class="screen-reader-text">',
-								'link_after'     => '</span>' . twentyseventeen_get_svg( array( 'icon' => 'chain' ) ),
-							) );
-						?>
-					</nav><!-- .social-navigation -->
-				<?php endif;
-
-				get_template_part( 'template-parts/footer/site', 'info' );
-				?>
-			</div><!-- .wrap -->
+				<nav class="social-media-navigation" role="navigation">
+					<?php wp_nav_menu( array( 'theme_location' => 'social-media', 'menu_class' => 'social-media-menu' ) ); ?>
+				</nav>
+			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
-	</div><!-- .site-content-contain -->
-</div><!-- #page -->
-<?php wp_footer(); ?>
 
+	</div><!-- #page -->
+
+	<?php wp_footer(); ?>
 </body>
 </html>
