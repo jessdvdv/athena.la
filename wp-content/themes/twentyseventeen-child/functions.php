@@ -18,6 +18,3 @@ function athena_child_scripts(){
 add_action( 'wp_enqueue_scripts', 'athena_child_scripts' );
 ?>
 
-
-<!-- REMOVING PARENT THEME POST FORMATS -->
-<?php remove_theme_support( 'post-formats' ); ?>

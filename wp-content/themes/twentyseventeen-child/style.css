@@ -399,31 +399,13 @@ body {
 	border-left: none;
 	font: .875em/1.75em 'Open Sans', Arial, sans-serif;
 	height: 2.6rem;
-	background: url('img/white-arrow-right.png') no-repeat center #45ac9d;
+	background: url('img/white-arrow-right.png') no-repeat center #40E0D0;
 	color: #ffffff;
 	margin-left: -5px;
 	padding: 0;
 	vertical-align: middle;
 }
-#sidebar h2 {
-	font: 700 .875em/1.75 'Open Sans', Arial, sans-serif;
-	color: #45ac9d;
-	margin: 0 auto 1.25em;
-	text-transform: uppercase;
-}
-#sidebar ul li {
-	font: 600 .875em/1.5 'Open Sans', Arial, sans-serif;
-	color: #3b3b3b;
-	margin-bottom: 1em;
-}
-#sidebar ul li a {
-	color: #3b3b3b;
-}
 
-#sidebar ul {
-	display: inline-block;
-
-}
 .mc4wp-form-fields input[type="email"] {
     width: 79%;
     font: .875em/1.75em 'Open Sans', Arial, sans-serif;
@@ -445,12 +427,30 @@ body {
     border-left: none;
     font: .875em/1.75em 'Open Sans', Arial, sans-serif;
     height: 2.6rem;
-    background: url(img/white-arrow-right.png) no-repeat center #45ac9d;
+    background: url(img/white-arrow-right.png) no-repeat center #40E0D0;
     color: #ffffff;
     margin-left: -5px;
     padding: 0;
     vertical-align: middle;
 }
+
+
+#sidebar h2 {
+	font: 700 .875em/1.75 'Open Sans', Arial, sans-serif;
+	color: #40E0D0;
+	margin: 0 auto 1.25em;
+	text-transform: uppercase;
+}
+#sidebar ul li {
+	font: 600 .875em/1.5 'Open Sans', Arial, sans-serif;
+	color: #3b3b3b;
+	margin-bottom: 1em;
+}
+#sidebar ul li a {
+	color: #3b3b3b;
+}
+
+
 
 
 /* End SIDEBAR STYLES */
@@ -670,18 +670,12 @@ a.button, a.button:link {
 		font-size: 1.5em;
 	}
 
-	.link-more a, .twitter-follow-link {
+	.read-more-link, .twitter-follow-link {
 		font-family: 'Montserrat', 'OpenSans', Arial, sans-serif;
 		font-weight: 700;
-		color: #45ac9d;
+		color: #40E0D0;
 		text-transform: uppercase;
 	}
-
-
-
-
-
-
 
 
 /* End HOMEPAGE STYLES */
@@ -719,6 +713,31 @@ a.button, a.button:link {
 
 
 /* End FOOTER STYLES */
+
+
+/* ABOUT PAGE STYLES */
+
+.about-hero-img {
+    background: url("img/about-masthead.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    margin: 0 0 5em;
+    height: auto;
+    padding: 2.5em 0;
+	text-align: center;
+}
+
+.about-title{
+
+	color: #ffffff;
+	font-weight:bold;
+	font-size: 2em;
+	line-height: 1.5;
+    margin: auto;
+    background: #40E0D0;
+    padding: 0;
+    width: 55%;
+}
+
+
 
 /* Media Queries */
 @media (min-width: 768px) {
@@ -799,3 +818,5 @@ a.button, a.button:link {
 		display: inline;
 	}
 }
+
+

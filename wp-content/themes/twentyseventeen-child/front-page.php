@@ -43,7 +43,7 @@ get_header(); ?>
 					<?php dynamic_sidebar( 'sidebar-2' ); ?>
 				</div>
 				<?php endif; ?>
-				<p class="twitter-follow-link">Follow us</p>
+				<p class="twitter-follow-link">Follow us &#10095;</p>
 
 			</div>
 		</div>
