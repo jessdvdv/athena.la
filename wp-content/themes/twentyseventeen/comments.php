@@ -6,8 +6,8 @@
  * and the comment form.
  *
  * @package WordPress
- * @subpackage Accelerate
- * @since Accelerate 2.0
+ * @subpackage Athena.LA
+ * @since Athena.LA
  */
   ?>
 

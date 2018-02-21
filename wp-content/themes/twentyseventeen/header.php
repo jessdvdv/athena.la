@@ -5,8 +5,8 @@
  * Displays all of the <head> section and everything up till <div id="main">
  *
  * @package WordPress
- * @subpackage Accelerate Marketing
- * @since Accelerate Marketing 2.0
+ * @subpackage Athena.LA
+ * @since Athena.LA
  */
 ?>
 <!DOCTYPE html>

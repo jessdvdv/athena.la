@@ -10,8 +10,8 @@
  * @link http://codex.wordpress.org/Template_Hierarchy
  *
  * @package WordPress
- * @subpackage Accelerate Marketing
- * @since Accelerate Marketing 2.0
+ * @subpackage Athena.LA
+ * @since Athena.LA
  */
 
 get_header(); ?>

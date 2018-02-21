@@ -21,8 +21,8 @@
  * @link http://codex.wordpress.org/Plugin_API
  *
  * @package WordPress
- * @subpackage Accelerate Marketing
- * @since Accelerate Marketing 2.0
+ * @subpackage Athena.LA
+ * @since Athena.LA
  */
 
 // Theme support for menus
