@@ -179,7 +179,7 @@ figure, img {
 iframe {
    width: 100%;
 }
-input {
+/*input {
 	font: 1em 'OpenSans', Arial, sans-serif;
 	line-height: 2;
 	height: 2.3125em;
@@ -188,8 +188,8 @@ input {
 	padding: 0.3em 0.625em;
 	background: #fff;
 	vertical-align: middle;
-}
-input[type="button"],
+}*/
+/*input[type="button"],
 input[type="submit"] {
 	font: 700 1em/1 'Montserrat', 'OpenSans', Arial, sans-serif;
 	color: #fff;
@@ -197,7 +197,7 @@ input[type="submit"] {
 	border: none;
 	padding: 1em 3.75em;
 	text-align: center;
-}
+}*/
 /* End MAIN STYLES */
 
 /* BODY STYLES */
@@ -283,10 +283,10 @@ body {
 	text-decoration: none;
 }
 .entry-title a:hover {
-	color: #45ac9d;
+	color: #40E0D0;
 }
 .entry-time {
-	color: #45ac9d;
+	color: #40E0D0;
 	font: 600 .82em/1.65 'Open Sans', Arial, sans-serif;
 }
 .category .page-title {
@@ -294,10 +294,10 @@ body {
 	margin: 0;
 }
 .category .page-title span {
-	color: #45ac9d;
+	color: #40E0D0;
 }
 .entry-summary a {
-	color: #45ac9d;
+	color: #40E0D0;
 	font-weight: 600;
 }
 .entry-summary a:hover {
@@ -329,7 +329,7 @@ body {
 	text-transform: capitalize;
 }
 .entry-footer .entry-terms a:hover {
-	border-bottom: 1px solid #45ac9d;
+	border-bottom: 1px solid #40E0D0;
 }
 .entry-terms span {
 	font-weight: normal;
@@ -477,7 +477,7 @@ body {
 }
 #navigation .left a,
 #navigation .right a {
-	color: #45ac9d;
+	color: #40E0D0;
 	text-decoration: none;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -542,7 +542,7 @@ body {
 	float: right;
 }
 .comment-list .comment a {
-	color: #45ac9d;
+	color: #40E0D0;
 	text-decoration: none;
 }
 .comment-list .comment a:hover {
@@ -553,13 +553,13 @@ body {
 	text-transform: capitalize;
 }
 .comments-area .comment-reply-title {
-	color: #45ac9d;
+	color: #40E0D0;
 	font: 700 1.176em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
 	text-transform: uppercase;
 	margin: 2em 0 1em;
 }
 .comments-area .comment-reply-title a {
-	color: #45ac9d;
+	color: #40E0D0;
 }
 .comments-area .comment-reply-title a:hover {
 	text-decoration: underline;
@@ -586,7 +586,7 @@ body {
 	border: 1px solid #BFBFBF;
 }
 .comments-area .comment-form p a {
-	color: #45ac9d;
+	color: #40E0D0;
 }
 .comments-area .comment-form p a:hover {
 	text-decoration: underline;
@@ -605,7 +605,7 @@ body {
 	border: 1px solid #BFBFBF;
 }
 .comments-area .comment-form input[type="submit"] {
-	background: #45ac9d;
+	background: #40E0D0;
 	width: 12.875em;
 	height: 3.5em;
 	line-height: 1;
@@ -737,6 +737,34 @@ a.button, a.button:link {
     width: 55%;
 }
 
+/* END ABOUT PAGE STYLES */
+
+
+/* CONTACT PAGE STYLES */
+.contact-title{
+
+	color: #ffffff;
+	font-weight:bold;
+	font-size: 2em;
+	line-height: 1.5;
+    margin: auto;
+    background: #40E0D0;
+    padding: 0;
+    width: 60%;
+}
+ 
+
+#nf-field-4 {
+    border: 1px solid #a6a6a6;
+    height: 2.6rem;
+    background: #40E0D0;
+    color: #ffffff;
+    padding: 1em 3.75em;;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* END CONTACT PAGE STYLES */
 
 
 /* Media Queries */
