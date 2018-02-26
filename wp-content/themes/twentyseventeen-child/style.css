@@ -254,14 +254,14 @@ body {
 }
 .page-header .primary-navigation ul ul {
    text-indent: 2em;
-   margin-bottom: 1em;
+   margin-bottom: .5em;
 }
 #main{
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 .main-content {
    vertical-align: top;
-   padding: 2em 0 0 0;
+   padding: .5em 0 0 0;
 }
 #sidebar {
    display: none;
@@ -620,7 +620,7 @@ body {
     background: url("img/hero-image.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
     height: auto;
     margin: 0 0 5em;
-    padding: 8em 0;
+    padding: 2em 0;
 	text-align: center;
 }
 .hero-content h1 {
@@ -719,7 +719,7 @@ a.button, a.button:link {
 
 .about-hero-img {
     background: url("img/about-masthead.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
-    margin: 0 0 5em;
+    margin: 0 0 2em;
     height: auto;
     padding: 2.5em 0;
 	text-align: center;
@@ -765,6 +765,13 @@ a.button, a.button:link {
 }
 
 /* END CONTACT PAGE STYLES */
+
+
+/* EVENTS PAGE STYLES */
+
+
+/*END EVENTS PAGE STYLES */
+
 
 
 /* Media Queries */
