@@ -20,7 +20,7 @@ get_header(); ?>
 		</div>
 
 		<div class="about-buttons">
-			<a class="button" href="<?php echo site_url('#') ?>">Join the Community</a>
+			<a class="button" href="<?php echo site_url('/contact') ?>">Join the Community</a>
 		</div>
 	</div>
 

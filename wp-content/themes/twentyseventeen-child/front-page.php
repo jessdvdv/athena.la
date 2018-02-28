@@ -18,8 +18,8 @@ get_header(); ?>
 		<div class="main-content" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php the_content(); ?>
-				<a class="button" href="<?php echo site_url('#') ?>">Learn More</a>
-				<a class="button" href="<?php echo site_url('#') ?>">Join the Community</a>
+				<a class="button" href="<?php echo site_url('/about') ?>">Learn More</a>
+				<a class="button" href="<?php echo site_url('/contact') ?>">Join the Community</a>
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
 	</div><!-- #primary -->
