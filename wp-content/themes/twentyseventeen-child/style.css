@@ -250,7 +250,7 @@ body {
    text-transform: uppercase;
 }
 .page-header .primary-navigation ul li:hover > a{
-   font-weight: bold;
+   font-weight: normal;
 }
 .page-header .primary-navigation ul ul {
    text-indent: 2em;
